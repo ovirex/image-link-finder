@@ -1,0 +1,19 @@
+{
+    "quotes": [
+        {
+            "name": "Ovidio",
+            "lastName": "Perez",
+            "img": "link of the image of Ovidio 1"
+        },
+        {
+            "name": "Jaun",
+            "lastName": "Sanchez",
+            "img": "link of the image of Jaun 1"
+        },
+        {
+            "name": "Vladimir",
+            "lastName": "Sanchez",
+            "img": "link of the image of Vladimir 1"
+        }
+    ]
+}
