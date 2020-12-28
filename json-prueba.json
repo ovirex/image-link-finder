@@ -1,19 +1,19 @@
 {
     "quotes": [
         {
-            "name": "Ovidio",
-            "lastName": "Perez",
-            "img": "link of the image of Ovidio 1"
+            "quote": "Life isn’t about getting and having, it’s about giving and being.",
+            "author": "Kevin Kruse",
+            "imgLink": "https://pbs.twimg.com/profile_images/1189943169292668931/UybAdUum_400x400.jpg"
         },
         {
-            "name": "Jaun",
-            "lastName": "Sanchez",
-            "img": "link of the image of Jaun 1"
+            "quote": "Whatever the mind of man can conceive and believe, it can achieve.",
+            "author": "Napoleon Hill",
+            "imgLink": "https://www.alineon.com/lp/design/test-nh/napoleon_hill.jpeg"
         },
         {
-            "name": "Vladimir",
-            "lastName": "Sanchez",
-            "img": "link of the image of Vladimir 1"
+            "quote": "Strive not to be a success, but rather to be of value.",
+            "author": "Albert Einstein",
+            "imgLink": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Einstein_tongue.jpg/220px-Einstein_tongue.jpg"
         }
     ]
 }
