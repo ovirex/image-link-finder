@@ -1,9 +1,10 @@
-const { writeFile, readFile } = require("fs");
+const { writeFile, readFile, writeFileSync } = require("fs");
 const { imageFinder } = require("./image-finder");
 
-const jsonTest = require("./json-prueba.json");
+const referenceFile = "./quotes.json";
+const outputFile = "new-quotes.json";
 
-readFile("./json-prueba.json", "utf8", async (err, jsonFile) => {
+readFile(referenceFile, "utf8", async (err, jsonFile) => {
     if (err) {
         console.log(err);
         return;
@@ -22,17 +23,12 @@ readFile("./json-prueba.json", "utf8", async (err, jsonFile) => {
             console.log(err);
             quoteObj.imgLink = err;
         } finally {
-            writeFile(
-                "./json-prueba.json",
-                JSON.stringify(quotesFile),
-                (err) => {
-                    if (err) {
-                        console.log(err);
-                        return;
-                    }
-                    console.log("Proceso Finalizado. JSON Actualizado.");
-                }
-            );
+            try {
+                writeFileSync(outputFile, JSON.stringify(quotesFile));
+                console.log("Proceso Finalizado. JSON Actualizado.");
+            } catch (error) {
+                console.log(error);
+            }
         }
 
         index++;

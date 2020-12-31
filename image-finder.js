@@ -3,7 +3,7 @@ const puppeteer = require("puppeteer");
 async function imageFinder(authorName) {
     // let author = "Samuel L Jackson";
     let author = authorName;
-    let searchTerm = `${author} face -facebook`;
+    let searchTerm = `${author} face author -facebook -twitter`;
     const googleUrl = `http://www.google.com/search?q=${searchTerm}&tbm=isch`;
 
     const browser = await puppeteer.launch({ headless: false, devtools: true });

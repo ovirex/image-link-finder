@@ -3,17 +3,32 @@
         {
             "quote": "Life isn’t about getting and having, it’s about giving and being.",
             "author": "Kevin Kruse",
-            "imgLink": "https://pbs.twimg.com/profile_images/1189943169292668931/UybAdUum_400x400.jpg"
+            "imgLink": "https://pbs.twimg.com/media/DT72sYMUQAE-hdf.jpg"
         },
         {
             "quote": "Whatever the mind of man can conceive and believe, it can achieve.",
             "author": "Napoleon Hill",
-            "imgLink": "https://www.alineon.com/lp/design/test-nh/napoleon_hill.jpeg"
+            "imgLink": "https://wealthcreationmastermind.com/wp-content/uploads/2018/11/Napoleon_Hill_headshot.jpg"
         },
         {
             "quote": "Strive not to be a success, but rather to be of value.",
             "author": "Albert Einstein",
             "imgLink": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Einstein_tongue.jpg/220px-Einstein_tongue.jpg"
+        },
+        {
+            "quote": "Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",
+            "author": "Robert Frost",
+            "imgLink": "https://www.biography.com/.image/t_share/MTE5NDg0MDU1MjkxOTIxOTM1/robert-frost-9303322-1-402.jpg"
+        },
+        {
+            "quote": "I attribute my success to this: I never gave or took any excuse.",
+            "author": "Florence Nightingale",
+            "imgLink": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg"
+        },
+        {
+            "quote": "You miss 100% of the shots you don’t take.",
+            "author": "Wayne Gretzky",
+            "imgLink": "https://www.hhof.com/graphinduct/ind99g2.jpg"
         }
     ]
 }
