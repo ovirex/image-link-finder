@@ -36,16 +36,17 @@ async function imageFinder(authorName) {
             const imgElement = document.querySelector(
                 "#Sva75c > div > div > div.pxAole > div.tvh9oe.BIB1wf > c-wiz > div.OUZ5W > div.zjoqD > div > div.v4dQwb > a > img[src^='http']"
             );
-            console.log(imgElement);
-            return imgElement.src;
+
+            if (imgElement.src.match(/^http\w/)) {
+                return imgElement.src;
+            }
         });
-        if (imgURL.match(/^http\w/)) {
-            return imgURL;
-        }
+
+        return imgURL;
     } catch (error) {
         console.log(error);
 
-        return Promise.reject("No link found");
+        return Promise.reject("No link found.");
     } finally {
         await browser.close();
     }
